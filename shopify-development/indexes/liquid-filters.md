@@ -1,4 +1,4 @@
-# Liquid Filters — index (155 unici)
+# Liquid Filters — index (148 filtri unici; 155 righe, 7 in 2 categorie)
 
 How to use: find your filter, then open the listed file and Grep the heading `## <category> — <filter>` for full syntax, params, and examples.
 Part 1 (A–L) = `reference/09-liquid-filters-part1.md` · Part 2 (M–Z) = `reference/10-liquid-filters-part2.md`
@@ -232,6 +232,6 @@ Part 1 (A–L) = `reference/09-liquid-filters-part1.md` · Part 2 (M–Z) = `ref
 
 ---
 
-Totale: 155 filtri unici in 18 categorie (array, cart, collection, color, customer, default, font, format, hosted_file, html, localization, math, media, metafield, money, payment, string, tag).
+Totale: 148 filtri unici in 18 categorie (array, cart, collection, color, customer, default, font, format, hosted_file, html, localization, math, media, metafield, money, payment, string, tag). L'indice ha 155 righe perché 7 filtri compaiono in 2 categorie.
 
-> Nota: il file di reference `10-liquid-filters-part2.md` ripete anche la categoria `math` (già in part 1); qui è indicizzata una sola volta sotto part 1. Il conteggio "166" della doc Shopify deriva da quel doppio conteggio di `math`.
+> Nota sui conteggi: **148** = filtri distinti. **166** = listing per-categoria nel reference (148 unici + 18 doppioni cross-categoria, es. i filtri `math` ripetuti in part 2). **155** = righe di questo indice (148 + 7 multi-categoria). Il numero "vero" di filtri è 148.

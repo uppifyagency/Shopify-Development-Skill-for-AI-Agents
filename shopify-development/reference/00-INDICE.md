@@ -118,7 +118,7 @@ Legenda: `›` = voce con sotto-pagine espandibili.
 | | **TOTALE (1+2+3)** | | **~648** | **77.632** |
 
 **Dimensione totale:** ~3,3 MB di markdown.
-Liquid coperto: **135 objects, 28 tags, 166 filters**.
+Liquid coperto: **135 objects, 28 tags, 148 filters** (166 listing per categoria).
 
 ### Per disegno NON estratto (reference auto-generati → via MCP, non dump)
 Elencati come URL negli appendici `## Pagine aggiuntive` dei rispettivi capitoli, MAI nascosti:

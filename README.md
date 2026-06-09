@@ -40,7 +40,7 @@ This skill closes that gap. Instead of relying on memory, your agent reads the *
 ## ✨ What you get
 
 - **648 pages, 18 chapters, 1:1 verbatim** — parameter tables, schemas and code examples kept exactly as Shopify wrote them. No summaries, no paraphrasing, nothing invented.
-- **Indexed for zero-context lookup** — symbol indexes for **135 Liquid objects · 155 filters · 28 tags** + a task router. The agent greps the right heading and reads only that slice, never the whole file.
+- **Indexed for zero-context lookup** — symbol indexes for **135 Liquid objects · 148 filters · 28 tags** + a task router. The agent greps the right heading and reads only that slice, never the whole file.
 - **Full-surface coverage** — themes & Liquid, theme JS APIs, custom apps & extensions, headless/Hydrogen, Shopify Functions, custom data, and AI/agentic commerce.
 - **Traceable** — every reference page links back to its official `shopify.dev` source.
 - **Drop-in** — one folder, copy it into your agent's skills directory, done. Works with Claude Code, Amp, Cursor and any agent that loads Markdown skills.
@@ -50,7 +50,7 @@ This skill closes that gap. Instead of relying on memory, your agent reads the *
 | Area | Coverage |
 |------|----------|
 | **Themes & Architecture** | Layouts, JSON templates, sections, blocks, snippets, settings, config, locales — full schemas |
-| **Liquid Reference** | **135 objects · 28 tags · 155 filters** — signatures, parameters, examples |
+| **Liquid Reference** | **135 objects · 28 tags · 148 filters** — signatures, parameters, examples |
 | **Theme APIs** | Ajax cart API + Section Rendering API |
 | **Best Practices & Tooling** | Performance, accessibility, Shopify CLI, Theme Check, GitHub workflow, Theme Store |
 | **Custom Apps & Extensions** | OAuth & session tokens, App Bridge, webhooks, billing, Admin / Checkout / Customer-account / POS extensions |

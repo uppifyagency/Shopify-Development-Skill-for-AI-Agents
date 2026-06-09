@@ -1,0 +1,54 @@
+# task<TAB>surface<TAB>ref_file<TAB>expected_heading_target (literal prefix of a heading line)
+# The script validates every gold target EXISTS. Whether an agent FINDS it is the manual eval (see retrieval_eval.md).
+# surface may carry a ·tag (·trap / ·deprecated / ·longtail) to mark adversarial items.
+Show a savings badge when a variant is on sale	theme/liquid	reference/07-liquid-objects.md	### variant
+Loop over every product in a collection	theme/liquid	reference/08-liquid-tags.md	## for
+Render a snippet with an isolated scope	theme/liquid	reference/08-liquid-tags.md	## render
+Format a price as money in the store currency	theme/liquid	reference/10-liquid-filters-part2.md	## money — money
+Output a responsive product image (srcset/width)	theme/liquid	reference/10-liquid-filters-part2.md	## media — image_url
+Build a section schema with configurable blocks	theme/architecture	reference/02-key-concepts.md	## 2.4
+Add a line item to the cart via Ajax	theme/api	reference/11-theme-apis.md	### Cart API reference
+Re-render a section without a full page reload	theme/api	reference/11-theme-apis.md	## Section Rendering API
+Decode a session token in the app backend	app/auth	reference/12-apps-foundations.md	## About session tokens
+Verify an incoming webhook is authentic	app/webhooks	reference/13-apps-build-operate.md	## About Webhooks
+Add a Checkout UI extension	app/extensions	reference/14-app-extensions.md	## Checkout UI extensions
+Fetch storefront data from a Hydrogen route	headless/hydrogen	reference/15-headless-hydrogen.md	## Hydrogen (API overview)
+Write a product discount Shopify Function	functions	reference/16-functions.md	## Discounts (Product, Order, Shipping)
+Build a cart-transform bundle Function	functions	reference/16-functions.md	## Cart Transform (bundles, line item changes)
+Define metafield types on a product	custom-data	reference/17-custom-data.md	## About metafields (Custom data overview)
+Make the store operable by AI agents via UCP	ai/agentic	reference/18-ai-agentic.md	## 1. Agentic commerce / UCP (Universal Commerce Protocol)
+Show predictive search results in a theme	theme/liquid·longtail	reference/07-liquid-objects.md	### predictive_search
+Render storefront product recommendations	theme/liquid·longtail	reference/07-liquid-objects.md	### recommendations
+Display a subscription selling plan on a product	theme/liquid·longtail	reference/07-liquid-objects.md	### selling_plan
+Read the current request's page_type/host	theme/liquid·longtail	reference/07-liquid-objects.md	### request
+Read a metafield value in Liquid	theme/liquid·longtail	reference/07-liquid-objects.md	### metafield
+List a product's store policies	theme/liquid·longtail	reference/07-liquid-objects.md	### policy
+Show a cart line's discount allocations	theme/liquid·longtail	reference/07-liquid-objects.md	### discount_allocation
+Use the deprecated snippet-include tag	theme/liquid·deprecated	reference/08-liquid-tags.md	## include
+Build an HTML table from a Liquid loop	theme/liquid·longtail	reference/08-liquid-tags.md	## tablerow
+Alternate values across loop iterations	theme/liquid·longtail	reference/08-liquid-tags.md	## cycle
+Document a snippet's parameters (LiquidDoc)	theme/liquid·longtail	reference/08-liquid-tags.md	## doc
+Sort an array case-insensitively	theme/liquid·longtail	reference/09-liquid-filters-part1.md	## array — sort_natural
+Filter an array by a property value	theme/liquid·longtail	reference/09-liquid-filters-part1.md	## array — where
+Lighten or darken a color from a setting	theme/liquid·longtail	reference/09-liquid-filters-part1.md	## color — color_modify
+Compute readable contrast between two colors	theme/liquid·longtail	reference/09-liquid-filters-part1.md	## color — color_contrast
+Build a theme asset URL for CSS/JS	theme/liquid·longtail	reference/09-liquid-filters-part1.md	## hosted_file — asset_url
+Serialize an object to JSON in Liquid	theme/liquid·longtail	reference/09-liquid-filters-part1.md	## format — json
+Render a CSS @font-face from a font setting	theme/liquid·longtail	reference/09-liquid-filters-part1.md	## font — font_face
+Subset stylesheet content for performance	theme/best-practices	reference/03-best-practices.md	### Stylesheet content subsetting
+Run theme deploys in continuous integration	theme/tooling	reference/04-developer-tools.md	## Using Shopify CLI for continuous integration
+Edit the checkout.liquid layout (Plus, deprecated)	theme/architecture·deprecated	reference/02-key-concepts.md	### 2.2.1 checkout.liquid
+Set up multi-currency Markets in a theme	theme/features	reference/05-theme-features.md	### Markets
+Display subscriptions on a product (theme side)	theme/features	reference/05-theme-features.md	## Pricing and payments — Subscriptions (overview)
+Meet Theme Store submission requirements	theme/distribution	reference/06-sell-themes.md	## Theme store requirements
+Exchange a session token for an access token	app/auth·trap	reference/12-apps-foundations.md	## Exchange a session token for an access token (token exchange)
+Request new access scopes dynamically at runtime	app/auth·longtail	reference/12-apps-foundations.md	### Request new access scopes dynamically
+Set up usage-based billing (current Shopify App Pricing)	app/billing·trap	reference/13-apps-build-operate.md	## Setup usage charges (Shopify App Pricing)
+Use the legacy manual Billing API	app/billing·deprecated	reference/13-apps-build-operate.md	## About manual pricing (legacy Billing API)
+Decide when to use the Storefront API vs Admin	headless·trap	reference/15-headless-hydrogen.md	### When to use the Storefront API
+Write a Shopify Function in Rust	functions·longtail	reference/16-functions.md	### Rust for Functions
+Customize delivery options with a Function	functions	reference/16-functions.md	## Delivery Customization
+Customize available payment methods with a Function	functions	reference/16-functions.md	## Payment Customization
+See the full list of metafield data types	custom-data·longtail	reference/17-custom-data.md	## List of data types (metafield TYPES reference)
+Migrate a metafield from one type to another	custom-data·longtail	reference/17-custom-data.md	### Metafield type migration
+Find the Storefront MCP server tools and endpoints	ai/agentic·longtail	reference/18-ai-agentic.md	### 3.2 Storefront MCP server (tools & endpoints)

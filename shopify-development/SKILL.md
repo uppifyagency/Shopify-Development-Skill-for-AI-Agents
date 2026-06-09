@@ -37,7 +37,7 @@ Shopify task:
 2. **For a specific Liquid symbol** (object/tag/filter) → look it up in the matching
    index to get the exact file + heading:
    - [indexes/liquid-objects.md](indexes/liquid-objects.md) — 135 objects
-   - [indexes/liquid-filters.md](indexes/liquid-filters.md) — 155 filters
+   - [indexes/liquid-filters.md](indexes/liquid-filters.md) — 148 filters
    - [indexes/liquid-tags.md](indexes/liquid-tags.md) — 28 tags
    - [indexes/schemas.md](indexes/schemas.md) — section/block/settings/config/template schemas
 3. **Jump to the exact content**: open the named `reference/NN-*.md` file and
