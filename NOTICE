@@ -1,0 +1,32 @@
+Uppify — Shopify Development Skill
+==================================
+
+Attribution and content provenance
+----------------------------------
+
+The files under `shopify-development/reference/` are a faithful (1:1) reproduction
+of Shopify's official developer documentation, captured from https://shopify.dev
+in June 2026. This documentation is the intellectual property of Shopify Inc. and
+its respective authors. Each reference page includes a "Fonte:" line linking to its
+original source URL on shopify.dev.
+
+This content is included to let AI coding agents look up accurate Shopify reference
+material. It is provided for developer convenience and educational use. All rights
+to the underlying documentation remain with Shopify Inc.
+
+Trademarks
+----------
+
+"Shopify", "Liquid", "Hydrogen", "Oxygen" and related marks are trademarks of
+Shopify Inc. "Uppify" is an independent project and is NOT affiliated with,
+sponsored by, or endorsed by Shopify Inc.
+
+If you are a rights holder and would like content adjusted or removed, contact
+email.vlad.vrinceanu@gmail.com.
+
+Original work
+-------------
+
+The skill architecture, the navigation layer (SKILL.md), the symbol indexes
+(indexes/), the cheatsheet, the website, and all supporting files are original
+work © 2026 Uppify, released under the MIT License (see LICENSE).
