@@ -1,13 +1,11 @@
 <div align="center">
 
-<img src="assets/favicon.svg" width="76" alt="Uppify">
-
-# Uppify — Shopify Development Skill for AI Agents
+# Shopify Development Skill for AI Agents
 
 **The entire shopify.dev reference, as an installable skill for Claude Code, Amp & Cursor.**
 Your agent looks up the *exact, verbatim* Shopify docs — Liquid, themes, apps, Hydrogen, Functions — instead of hallucinating APIs.
 
-🌐 **[uppifyagency.github.io](https://uppifyagency.github.io/)** · 18 chapters · ~648 pages · 1:1 verbatim
+18 chapters · ~648 pages · 1:1 verbatim · by [Uppify](https://github.com/uppifyagency)
 
 </div>
 
@@ -35,14 +33,14 @@ It is **not** a set of summaries. The reference is kept verbatim (parameter tabl
 
 ### Claude Code
 ```bash
-git clone https://github.com/uppifyagency/uppifyagency.github.io.git
-cp -r uppifyagency.github.io/shopify-development ~/.claude/skills/
+git clone https://github.com/uppifyagency/Shopify-Development-Skill-for-AI-Agents.git
+cp -r Shopify-Development-Skill-for-AI-Agents/shopify-development ~/.claude/skills/
 ```
 For a single project instead of globally, copy into `<your-project>/.claude/skills/`.
 
 ### Amp
 ```bash
-cp -r uppifyagency.github.io/shopify-development ~/.config/agents/skills/
+cp -r Shopify-Development-Skill-for-AI-Agents/shopify-development ~/.config/agents/skills/
 ```
 Project-local: copy into `.agents/skills/`.
 
@@ -72,7 +70,7 @@ Questions or work with us → **email.vlad.vrinceanu@gmail.com**
 
 ## License & attribution
 
-The skill structure, indexes, navigation and this site are released under the [MIT License](LICENSE).
+The skill structure, indexes and navigation are released under the [MIT License](LICENSE).
 The documentation content under `shopify-development/reference/` is derived from Shopify's developer
 documentation (shopify.dev) and remains © Shopify Inc.; every page links to its official source.
 See [NOTICE](NOTICE). Uppify is an independent project and is not affiliated with or endorsed by Shopify.
